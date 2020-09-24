@@ -10,9 +10,9 @@
 		2ECF2D96251CD3010087A9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D95251CD3010087A9EE /* AppDelegate.swift */; };
 		2ECF2D98251CD3010087A9EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D97251CD3010087A9EE /* SceneDelegate.swift */; };
 		2ECF2D9A251CD3010087A9EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D99251CD3010087A9EE /* ViewController.swift */; };
-		2ECF2D9D251CD3010087A9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECF2D9B251CD3010087A9EE /* Main.storyboard */; };
 		2ECF2D9F251CD3040087A9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECF2D9E251CD3040087A9EE /* Assets.xcassets */; };
 		2ECF2DA2251CD3040087A9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECF2DA0251CD3040087A9EE /* LaunchScreen.storyboard */; };
+		2ECF2DAA251CD5D20087A9EE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2ECF2DA9251CD5D20087A9EE /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		2ECF2D95251CD3010087A9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ECF2D97251CD3010087A9EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2ECF2D99251CD3010087A9EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2ECF2D9C251CD3010087A9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2ECF2D9E251CD3040087A9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ECF2DA1251CD3040087A9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ECF2DA3251CD3040087A9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ECF2DA9251CD5D20087A9EE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +59,10 @@
 				2ECF2D95251CD3010087A9EE /* AppDelegate.swift */,
 				2ECF2D97251CD3010087A9EE /* SceneDelegate.swift */,
 				2ECF2D99251CD3010087A9EE /* ViewController.swift */,
-				2ECF2D9B251CD3010087A9EE /* Main.storyboard */,
 				2ECF2D9E251CD3040087A9EE /* Assets.xcassets */,
 				2ECF2DA0251CD3040087A9EE /* LaunchScreen.storyboard */,
 				2ECF2DA3251CD3040087A9EE /* Info.plist */,
+				2ECF2DA9251CD5D20087A9EE /* .gitignore */,
 			);
 			path = iChat;
 			sourceTree = "<group>";
@@ -126,8 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ECF2DA2251CD3040087A9EE /* LaunchScreen.storyboard in Resources */,
+				2ECF2DAA251CD5D20087A9EE /* .gitignore in Resources */,
 				2ECF2D9F251CD3040087A9EE /* Assets.xcassets in Resources */,
-				2ECF2D9D251CD3010087A9EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2ECF2D9B251CD3010087A9EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2ECF2D9C251CD3010087A9EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2ECF2DA0251CD3040087A9EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
