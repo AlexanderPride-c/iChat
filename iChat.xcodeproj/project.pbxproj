@@ -18,6 +18,8 @@
 		2EEF7C70251DC791005CFC2A /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF7C6F251DC791005CFC2A /* UIColor + Extension.swift */; };
 		2EEF7C72251DC976005CFC2A /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF7C71251DC976005CFC2A /* UILabel + Extension.swift */; };
 		2EEF7C74251DCA7C005CFC2A /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF7C73251DCA7C005CFC2A /* UIImageView + Extension.swift */; };
+		2EEF7C78251DE27C005CFC2A /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF7C77251DE27C005CFC2A /* ButtonFormView.swift */; };
+		2EEF7C7A251DFF02005CFC2A /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF7C79251DFF02005CFC2A /* UIStackView + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		2EEF7C6F251DC791005CFC2A /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		2EEF7C71251DC976005CFC2A /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
 		2EEF7C73251DCA7C005CFC2A /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		2EEF7C77251DE27C005CFC2A /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
+		2EEF7C79251DFF02005CFC2A /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,17 +73,35 @@
 				2ECF2D95251CD3010087A9EE /* AppDelegate.swift */,
 				2ECF2D97251CD3010087A9EE /* SceneDelegate.swift */,
 				2ECF2D99251CD3010087A9EE /* AuthViewController.swift */,
-				2EEF7C6B251DC470005CFC2A /* UIButton + Extension.swift */,
-				2EEF7C6D251DC730005CFC2A /* UIFont + Extension.swift */,
-				2EEF7C6F251DC791005CFC2A /* UIColor + Extension.swift */,
-				2EEF7C71251DC976005CFC2A /* UILabel + Extension.swift */,
-				2EEF7C73251DCA7C005CFC2A /* UIImageView + Extension.swift */,
+				2EEF7C76251DE255005CFC2A /* Extension */,
 				2ECF2D9E251CD3040087A9EE /* Assets.xcassets */,
 				2ECF2DA0251CD3040087A9EE /* LaunchScreen.storyboard */,
 				2ECF2DA3251CD3040087A9EE /* Info.plist */,
 				2ECF2DA9251CD5D20087A9EE /* .gitignore */,
 			);
 			path = iChat;
+			sourceTree = "<group>";
+		};
+		2EEF7C75251DE242005CFC2A /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2EEF7C6B251DC470005CFC2A /* UIButton + Extension.swift */,
+				2EEF7C6D251DC730005CFC2A /* UIFont + Extension.swift */,
+				2EEF7C6F251DC791005CFC2A /* UIColor + Extension.swift */,
+				2EEF7C71251DC976005CFC2A /* UILabel + Extension.swift */,
+				2EEF7C73251DCA7C005CFC2A /* UIImageView + Extension.swift */,
+				2EEF7C79251DFF02005CFC2A /* UIStackView + Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		2EEF7C76251DE255005CFC2A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2EEF7C77251DE27C005CFC2A /* ButtonFormView.swift */,
+				2EEF7C75251DE242005CFC2A /* UIKit */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +178,8 @@
 				2EEF7C6E251DC730005CFC2A /* UIFont + Extension.swift in Sources */,
 				2ECF2D9A251CD3010087A9EE /* AuthViewController.swift in Sources */,
 				2ECF2D96251CD3010087A9EE /* AppDelegate.swift in Sources */,
+				2EEF7C7A251DFF02005CFC2A /* UIStackView + Extension.swift in Sources */,
+				2EEF7C78251DE27C005CFC2A /* ButtonFormView.swift in Sources */,
 				2EEF7C72251DC976005CFC2A /* UILabel + Extension.swift in Sources */,
 				2EEF7C74251DCA7C005CFC2A /* UIImageView + Extension.swift in Sources */,
 				2EEF7C70251DC791005CFC2A /* UIColor + Extension.swift in Sources */,
