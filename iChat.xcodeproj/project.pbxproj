@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		2ECF2D96251CD3010087A9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D95251CD3010087A9EE /* AppDelegate.swift */; };
 		2ECF2D98251CD3010087A9EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D97251CD3010087A9EE /* SceneDelegate.swift */; };
-		2ECF2D9A251CD3010087A9EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D99251CD3010087A9EE /* ViewController.swift */; };
+		2ECF2D9A251CD3010087A9EE /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D99251CD3010087A9EE /* AuthViewController.swift */; };
 		2ECF2D9F251CD3040087A9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECF2D9E251CD3040087A9EE /* Assets.xcassets */; };
 		2ECF2DA2251CD3040087A9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECF2DA0251CD3040087A9EE /* LaunchScreen.storyboard */; };
 		2ECF2DAA251CD5D20087A9EE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2ECF2DA9251CD5D20087A9EE /* .gitignore */; };
+		2EEF7C6C251DC470005CFC2A /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF7C6B251DC470005CFC2A /* UIButton + Extension.swift */; };
+		2EEF7C6E251DC730005CFC2A /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF7C6D251DC730005CFC2A /* UIFont + Extension.swift */; };
+		2EEF7C70251DC791005CFC2A /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF7C6F251DC791005CFC2A /* UIColor + Extension.swift */; };
+		2EEF7C72251DC976005CFC2A /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF7C71251DC976005CFC2A /* UILabel + Extension.swift */; };
+		2EEF7C74251DCA7C005CFC2A /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF7C73251DCA7C005CFC2A /* UIImageView + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2ECF2D92251CD3010087A9EE /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ECF2D95251CD3010087A9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ECF2D97251CD3010087A9EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2ECF2D99251CD3010087A9EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2ECF2D99251CD3010087A9EE /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		2ECF2D9E251CD3040087A9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ECF2DA1251CD3040087A9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ECF2DA3251CD3040087A9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ECF2DA9251CD5D20087A9EE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2EEF7C6B251DC470005CFC2A /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		2EEF7C6D251DC730005CFC2A /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		2EEF7C6F251DC791005CFC2A /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		2EEF7C71251DC976005CFC2A /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
+		2EEF7C73251DCA7C005CFC2A /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,12 @@
 			children = (
 				2ECF2D95251CD3010087A9EE /* AppDelegate.swift */,
 				2ECF2D97251CD3010087A9EE /* SceneDelegate.swift */,
-				2ECF2D99251CD3010087A9EE /* ViewController.swift */,
+				2ECF2D99251CD3010087A9EE /* AuthViewController.swift */,
+				2EEF7C6B251DC470005CFC2A /* UIButton + Extension.swift */,
+				2EEF7C6D251DC730005CFC2A /* UIFont + Extension.swift */,
+				2EEF7C6F251DC791005CFC2A /* UIColor + Extension.swift */,
+				2EEF7C71251DC976005CFC2A /* UILabel + Extension.swift */,
+				2EEF7C73251DCA7C005CFC2A /* UIImageView + Extension.swift */,
 				2ECF2D9E251CD3040087A9EE /* Assets.xcassets */,
 				2ECF2DA0251CD3040087A9EE /* LaunchScreen.storyboard */,
 				2ECF2DA3251CD3040087A9EE /* Info.plist */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ECF2D9A251CD3010087A9EE /* ViewController.swift in Sources */,
+				2EEF7C6E251DC730005CFC2A /* UIFont + Extension.swift in Sources */,
+				2ECF2D9A251CD3010087A9EE /* AuthViewController.swift in Sources */,
 				2ECF2D96251CD3010087A9EE /* AppDelegate.swift in Sources */,
+				2EEF7C72251DC976005CFC2A /* UILabel + Extension.swift in Sources */,
+				2EEF7C74251DCA7C005CFC2A /* UIImageView + Extension.swift in Sources */,
+				2EEF7C70251DC791005CFC2A /* UIColor + Extension.swift in Sources */,
 				2ECF2D98251CD3010087A9EE /* SceneDelegate.swift in Sources */,
+				2EEF7C6C251DC470005CFC2A /* UIButton + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
