@@ -22,15 +22,17 @@ class SignUpViewController: UIViewController {
     let confirmPasswordTextField = OneLineTextField(font: .avenir20())
     
     let signUpButton = UIButton(title: "Sign Up", titleColor: .white, backgroundColor: .buttonDark(), cornerRadius: 4)
-    let loginButton = UIButton()
+    let loginButton: UIButton = {
+        let button = UIButton()
+        button.setTitle("Login", for: .normal)
+        button.setTitleColor(.buttonRed(), for: .normal)
+        button.titleLabel?.font = .avenir20()
+        return button
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        loginButton.setTitle("Login", for: .normal)
-        loginButton.setTitleColor(.buttonRed(), for: .normal)
-        loginButton.titleLabel?.font = .avenir20()
-        
+    
         setupConstraints()
     }
     
@@ -44,15 +46,16 @@ extension SignUpViewController {
         let passwordStackView = UIStackView(arrangedSubviews: [passwordLabel, passwordTextField], axis: .vertical, spacing: 0)
         let confirmPassordStackView = UIStackView(arrangedSubviews: [confirmPasswordLabel, confirmPasswordTextField], axis: .vertical, spacing: 0)
         
-         signUpButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
+        signUpButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
         
         let stackView = UIStackView(arrangedSubviews: [emailStackView, passwordStackView, confirmPassordStackView, signUpButton],
                                     axis: .vertical,
                                     spacing: 40)
-        
+        loginButton.contentHorizontalAlignment = .leading
         let bottomStackView = UIStackView(arrangedSubviews: [alreadyOnboardLabel, loginButton],
                                           axis: .horizontal,
-                                          spacing: -50)
+                                          spacing: 10)
+        bottomStackView.alignment = .firstBaseline
         
         welcomeLabel.translatesAutoresizingMaskIntoConstraints = false
         stackView.translatesAutoresizingMaskIntoConstraints = false
