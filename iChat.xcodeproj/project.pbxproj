@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2E1F92CA252857A5005B7055 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F92C9252857A5005B7055 /* LoginViewController.swift */; };
 		2E1F92E8252B025B005B7055 /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F92E7252B025B005B7055 /* SetupProfileViewController.swift */; };
+		2E1F92EA252B1F4C005B7055 /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F92E9252B1F4C005B7055 /* AddPhotoView.swift */; };
 		2ECF2D96251CD3010087A9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D95251CD3010087A9EE /* AppDelegate.swift */; };
 		2ECF2D98251CD3010087A9EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D97251CD3010087A9EE /* SceneDelegate.swift */; };
 		2ECF2D9A251CD3010087A9EE /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D99251CD3010087A9EE /* AuthViewController.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		2E1F92C9252857A5005B7055 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2E1F92E7252B025B005B7055 /* SetupProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
+		2E1F92E9252B1F4C005B7055 /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
 		2ECF2D92251CD3010087A9EE /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ECF2D95251CD3010087A9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ECF2D97251CD3010087A9EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		2EEF7C76251DE255005CFC2A /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				2E1F92E9252B1F4C005B7055 /* AddPhotoView.swift */,
 				2EEF7C77251DE27C005CFC2A /* ButtonFormView.swift */,
 				2EEFF78925272355002C663D /* OneLineTextField.swift */,
 				2EEF7C75251DE242005CFC2A /* UIKit */,
@@ -194,6 +197,7 @@
 				2E1F92E8252B025B005B7055 /* SetupProfileViewController.swift in Sources */,
 				2ECF2D96251CD3010087A9EE /* AppDelegate.swift in Sources */,
 				2EEF7C7A251DFF02005CFC2A /* UIStackView + Extension.swift in Sources */,
+				2E1F92EA252B1F4C005B7055 /* AddPhotoView.swift in Sources */,
 				2EEF7C78251DE27C005CFC2A /* ButtonFormView.swift in Sources */,
 				2EEF7C72251DC976005CFC2A /* UILabel + Extension.swift in Sources */,
 				2EEF7C74251DCA7C005CFC2A /* UIImageView + Extension.swift in Sources */,
