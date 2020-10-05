@@ -10,8 +10,28 @@ import UIKit
 
 class SetupProfileViewController: UIViewController {
     
+    let fillImageView = AddPhotoView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
+        setupConstraints()
+    }
+}
+
+// MARK: Setup constraints
+extension SetupProfileViewController {
+    
+    private func setupConstraints() {
+        
+        fillImageView.translatesAutoresizingMaskIntoConstraints = false
+        
+        view.addSubview(fillImageView)
+        
+        NSLayoutConstraint.activate([
+            fillImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 160),
+            fillImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+        ])
         
     }
 }
@@ -27,10 +47,10 @@ struct SetupProfileVCProvider: PreviewProvider {
     
     struct ContainerView: UIViewControllerRepresentable {
         
-        let loginVC = SetupProfileViewController()
+        let setupProfileVC = SetupProfileViewController()
         
         func makeUIViewController(context: UIViewControllerRepresentableContext<SetupProfileVCProvider.ContainerView>) -> SetupProfileViewController {
-            return loginVC
+            return setupProfileVC
         }
         
         func updateUIViewController(_ uiViewController: SetupProfileVCProvider.ContainerView.UIViewControllerType, context: UIViewControllerRepresentableContext<SetupProfileVCProvider.ContainerView>) {
