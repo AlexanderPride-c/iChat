@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E1F92CA252857A5005B7055 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F92C9252857A5005B7055 /* LoginViewController.swift */; };
+		2E1F92E8252B025B005B7055 /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F92E7252B025B005B7055 /* SetupProfileViewController.swift */; };
 		2ECF2D96251CD3010087A9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D95251CD3010087A9EE /* AppDelegate.swift */; };
 		2ECF2D98251CD3010087A9EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D97251CD3010087A9EE /* SceneDelegate.swift */; };
 		2ECF2D9A251CD3010087A9EE /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D99251CD3010087A9EE /* AuthViewController.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		2E1F92C9252857A5005B7055 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2E1F92E7252B025B005B7055 /* SetupProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
 		2ECF2D92251CD3010087A9EE /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ECF2D95251CD3010087A9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ECF2D97251CD3010087A9EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				2ECF2D99251CD3010087A9EE /* AuthViewController.swift */,
 				2EEFF78725272217002C663D /* SignUpViewController.swift */,
 				2E1F92C9252857A5005B7055 /* LoginViewController.swift */,
+				2E1F92E7252B025B005B7055 /* SetupProfileViewController.swift */,
 				2EEF7C76251DE255005CFC2A /* Extension */,
 				2ECF2D9E251CD3040087A9EE /* Assets.xcassets */,
 				2ECF2DA0251CD3040087A9EE /* LaunchScreen.storyboard */,
@@ -188,6 +191,7 @@
 				2EEFF78825272217002C663D /* SignUpViewController.swift in Sources */,
 				2EEF7C6E251DC730005CFC2A /* UIFont + Extension.swift in Sources */,
 				2ECF2D9A251CD3010087A9EE /* AuthViewController.swift in Sources */,
+				2E1F92E8252B025B005B7055 /* SetupProfileViewController.swift in Sources */,
 				2ECF2D96251CD3010087A9EE /* AppDelegate.swift in Sources */,
 				2EEF7C7A251DFF02005CFC2A /* UIStackView + Extension.swift in Sources */,
 				2EEF7C78251DE27C005CFC2A /* ButtonFormView.swift in Sources */,
