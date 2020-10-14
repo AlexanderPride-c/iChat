@@ -13,7 +13,7 @@
 		2E1F92EC252B2A35005B7055 /* UISegmentedControll + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F92EB252B2A35005B7055 /* UISegmentedControll + Extention.swift */; };
 		2EBE36392535DBF800D4724C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBE36382535DBF800D4724C /* ListViewController.swift */; };
 		2EBE363D2535E18100D4724C /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBE363C2535E18100D4724C /* PeopleViewController.swift */; };
-		2EBE363F2535E1BE00D4724C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBE363E2535E1BE00D4724C /* MainTabBarViewController.swift */; };
+		2EBE363F2535E1BE00D4724C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBE363E2535E1BE00D4724C /* MainTabBarController.swift */; };
 		2ECF2D96251CD3010087A9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D95251CD3010087A9EE /* AppDelegate.swift */; };
 		2ECF2D98251CD3010087A9EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D97251CD3010087A9EE /* SceneDelegate.swift */; };
 		2ECF2D9A251CD3010087A9EE /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF2D99251CD3010087A9EE /* AuthViewController.swift */; };
@@ -38,7 +38,7 @@
 		2E1F92EB252B2A35005B7055 /* UISegmentedControll + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControll + Extention.swift"; sourceTree = "<group>"; };
 		2EBE36382535DBF800D4724C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		2EBE363C2535E18100D4724C /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
-		2EBE363E2535E1BE00D4724C /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		2EBE363E2535E1BE00D4724C /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		2ECF2D92251CD3010087A9EE /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ECF2D95251CD3010087A9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ECF2D97251CD3010087A9EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 			children = (
 				2EBE36382535DBF800D4724C /* ListViewController.swift */,
 				2EBE363C2535E18100D4724C /* PeopleViewController.swift */,
-				2EBE363E2535E1BE00D4724C /* MainTabBarViewController.swift */,
+				2EBE363E2535E1BE00D4724C /* MainTabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Alexander Pride";
 				TargetAttributes = {
 					2ECF2D91251CD3010087A9EE = {
@@ -229,7 +229,7 @@
 				2ECF2D96251CD3010087A9EE /* AppDelegate.swift in Sources */,
 				2EEF7C7A251DFF02005CFC2A /* UIStackView + Extension.swift in Sources */,
 				2E1F92EA252B1F4C005B7055 /* AddPhotoView.swift in Sources */,
-				2EBE363F2535E1BE00D4724C /* MainTabBarViewController.swift in Sources */,
+				2EBE363F2535E1BE00D4724C /* MainTabBarController.swift in Sources */,
 				2EEF7C78251DE27C005CFC2A /* ButtonFormView.swift in Sources */,
 				2EEF7C72251DC976005CFC2A /* UILabel + Extension.swift in Sources */,
 				2EEF7C74251DCA7C005CFC2A /* UIImageView + Extension.swift in Sources */,
@@ -280,6 +280,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -340,6 +341,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
